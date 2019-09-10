@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/menu_acoes">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_pendencias"
+                    android:icon="@drawable/ic_action_pendencia"
+                    android:title="@string/menu_consultar_pendencia" />
+                <item
+                    android:id="@+id/nav_consultar_bic"
+                    android:icon="@drawable/ic_action_list"
+                    android:title="@string/menu_novo_bic" />
+                <!--<item-->
+                    <!--android:id="@+id/nav_notificacoes"-->
+                    <!--android:icon="@drawable/ic_action_notificacao"-->
+                    <!--android:title="@string/menu_notificacao" />-->
+            </menu>
+        </group>
+    </item>
+
+    <!--<item android:title="@string/menu_configutacao">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="@string/menu_share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="@string/menu_send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+    <item
+        android:id="@+id/nav_sair_app"
+        android:title="@string/menu_sair"
+        android:icon="@drawable/ic_menu_sair"/>
+
+</menu>

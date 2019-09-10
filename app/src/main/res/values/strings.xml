@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">SISAAFIM</string>
+    <string name="ac_login_title">SISAAFIM</string>
+    <string name="ac_login_matricula">Matrícula</string>
+    <string name="ac_login_senha">Senha</string>
+    <string name="ac_login_entrar">Entrar</string>
+    <string name="title_activity_lista_de_pendencia">ListaDePendenciaActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Usuário</string>
+    <string name="nav_header_subtitle">Função</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_consultar_pendencia">Consultar Pendências</string>
+    <string name="menu_consultar_bic">Consultar BIC</string>
+    <string name="menu_novo_bic">Cadastrar BIC</string>
+    <string name="menu_notificacao">Notificações</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_configutacao">Configuração</string>
+    <string name="menu_acoes">Ações</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="menu_sair">Sair</string>
+
+    <!-- Imóvel form -->
+    <string name="imovelId">Imóvel</string>
+    <string name="ac_form_imovel_inscricao">Inscrição</string>
+    <string name="ac_form_imovel_inscricao_anterior">Inscrição anterior</string>
+    <string name="ac_form_imovel_sequencial">Sequencial</string>
+
+    <!-- Endereço -->
+    <string name="logradouro">Endereço</string>
+    <string name="endereco_cidade">Cidade</string>
+    <string name="endereco_uf">UF</string>
+    <string name="endereco_bairro">Bairro</string>
+    <string name="endereco_logradouro">Logradouro</string>
+    <string name="endereco_complemento">Complemento</string>
+    <string name="endereco_cep">CEP</string>
+    <string name="endereco_numero">Número</string>
+    <string name="endereco_loteamento">Loteamento</string>
+    <string name="endereco_edificio">Edifício</string>
+    <string name="endereco_natureza">Natureza</string>
+    <string name="endereco_localizacao">Localização</string>
+    <string name="endereco_latitude">Latitude</string>
+    <string name="endereco_longitude">Longitude</string>
+
+    <!-- Contribuinte form -->
+    <string name="ac_form_contribuinte_title">Contribuinte</string>
+    <string name="ac_form_contribuinte_nome">Nome</string>
+    <string name="ac_form_contribuinte_data_nascimento">Data de Nascimento</string>
+    <string name="ac_form_contribuinte_telefone">Telefone</string>
+    <string name="ac_form_contribuinte_cpf">CPF</string>
+    <string name="ac_form_contribuinte_rg">RG</string>
+    <string name="ac_form_contribuinte_expedidor">Orgão Expedidor</string>
+    <string name="ac_form_contribuinte_cnh">CNH</string>
+    <string name="ac_form_contribuinte_cnpj">CNPJ</string>
+    <string name="ac_form_contribuinte_salvar">Salvar</string>
+    <string name="ac_info_imovel_title">Informações do Imóvel</string>
+    <string name="ac_info_imovel_tv_dimensoes_unidade">Dimensões da Unidade</string>
+    <string name="ac_info_imovel_area_do_terreno">Área do Terreno</string>
+    <string name="ac_info_imovel_testada">Testada</string>
+    <string name="ac_info_imovel_area_total">Área Total</string>
+    <string name="ac_info_imovel_profundidade">Profundidade</string>
+    <string name="ac_info_imovel_area_da_unidade">Área da Unidade</string>
+    <string name="ac_info_imovel_nis">N.I.S</string>
+    <string name="ac_info_imovel_tv_info_gerais_terreno">Informações Gerais do Terreno</string>
+    <string name="ac_info_imovel_topografia">Topografia</string>
+    <string name="ac_info_imovel_pedologia">Pedologia</string>
+    <string name="ac_info_imovel_patrimonio">Patrimônio</string>
+    <string name="ac_info_imovel_limitacao">Limitação</string>
+    <string name="ac_info_imovel_situacao_terreno">Situação do Terreno</string>
+    <string name="ac_info_imovel_fracao_ideal">Fração Ideal</string>
+    <string name="ac_info_imovel_tv_benfeitorias">Benfeitorias</string>
+    <string name="info_imovel_agua">Água</string>
+    <string name="info_imovel_iluminacao_publica">Iluminação Publica</string>
+    <string name="info_imovel_sarjetas">Sarjetas</string>
+    <string name="info_imovel_pavimentacao">Pavimentação</string>
+    <string name="info_imovel_esgoto">Esgoto</string>
+    <string name="info_imovel_telefone">Telefone</string>
+    <string name="info_imovel_rede_eletrica">Rede Elétrica</string>
+    <string name="info_imovel_galerias_pluviais">Galerias Pluviais</string>
+    <string name="info_imovel_limpeza_urbana">Limpeza Urbana</string>
+    <string name="info_imovel_coleta_lixo">Coleta de Lixo</string>
+    <string name="item_menu_salvar">Salvar</string>
+    <string name="endereco_subunidade">Subunidade</string>
+    <string name="endereco_quadra">Quadra</string>
+    <string name="endereco_lote">Lote</string>
+    <string name="endereco_numero_subunidade">Nº Subunidade</string>
+    <string name="endereco_bloco">Bloco</string>
+    <string name="ac_info_imovel_tipo_imovel">Tipo de Imóvel</string>
+    <string name="ac_info_imovel_tipo_estrutura">Tipo de Estrutura</string>
+    <string name="ac_info_imovel_utilizacao_imovel">Utilização do Imóvel</string>
+    <string name="ac_info_imovel_padrao_qualidade">Padrão de Qualidade</string>
+    <string name="ac_info_imovel_estado_conservacao">Estado de Conservação</string>
+    <string name="ac_form_contribuinte_celular">Celular</string>
+    <string name="endereco_email">Email</string>
+    <string name="action_remover">Remover</string>
+    <string name="action_editar">Editar</string>
+    <string name="endereco">Endereço</string>
+    <string name="imovel">Imovel</string>
+    <string name="item_menu_voltar">Voltar</string>
+</resources>

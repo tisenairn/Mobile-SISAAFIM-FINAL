@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bairros_array">
+        <item>BAIRRO INEXISTENTE</item>
+        <item>CENTRO</item>
+        <item>SANTO ANTONIO DO POTENGI</item>
+        <item>REGOMOLEIRO</item>
+        <item>NOVO AMARANTE</item>
+        <item>JARDIM LOLA</item>
+        <item>GOLANDIM</item>
+        <item>MILHARADA</item>
+        <item>LOTEAMENTO NEBRASKA</item>
+        <item>LOTEAMENTO SANTA LUZIA</item>
+        <item>LOTEAMENTO PARQUE DAS CERAMICAS</item>
+        <item>LOTEAMENTO ALMEIDÃO</item>
+        <item>LOTEAMENTO SAMBURA</item>
+        <item>LOTEAMENTO SAMBURA II</item>
+        <item>LOTEAMENTO CANAA</item>
+        <item>LOTEAMENTO PARQUE DOS SONHOS AMARANTE</item>
+        <item>CONJUNTO MONTE LIBANO NOVO AMARANTE</item>
+        <item>LOTEAMENTO SOL NASCENTE REGOMOLEIRO</item>
+        <item>LOTEAMENTO SÃO FRANCISCO</item>
+        <item>LOTEAMENTO PARQUE DOS EUCALIPTOS AMARANTE</item>
+        <item>CONJUNTO RESIDENCIAL PARQUE DOS COQUEIROS</item>
+        <item>LOTEAMENTO JARDIM LEBLOM GOLANDIM</item>
+        <item>LOTEAMENTO GIZELDA CAMARA NOVO AMARANTE</item>
+        <item>LOTEAMENTO BELA VISTA AMARANTE</item>
+        <item>LOTEAMENTO PATAMAR I JARDIM LOLA</item>
+        <item>LOTEAMENTO PATAMAR II JARDIM LOLA</item>
+        <item>LOTEAMENTO VEGA JARDIM LOLA</item>
+        <item>CONJUNTO PROLAR AMARANTE</item>
+        <item>CONJUNTO ALAMEDA POTIGUAR AMARANTE</item>
+        <item>LOTEAMENTO SÃO DOMINGOS REGOMOLEIRO</item>
+        <item>LOTEAMENTO SÃO FRANCISCO I REGOMOL</item>
+        <item>LOTEAMENTO CAPINHACU MASSARANDUB</item>
+        <item>CONJUNTO RESIDENCIAL MORADA ESPACO ABERTO</item>
+        <item>LOTEAMENTO LISBOA SANTO ANT POTENGI</item>
+        <item>LOTEAMENTO PARQUE IGARACU GUAJIRU</item>
+        <item>SANTO ANTONIO</item>
+        <item>LOTEAMENTO ESPLANADA I SANTO ANTONIO</item>
+        <item>LOTEAMENTO REGOMOLEIRO</item>
+        <item>LOTEAMENTO ESPLANADA II SANTO ANTONIO</item>
+        <item>LOTEAMENTO PARQUE MONTE LIBANO REGOMOLEIRO</item>
+        <item>LOTEAMENTO VILA SÃO JORGE GUAJIRU</item>
+        <item>LOTEAMENTO JARDIM REDENCÃO GUAJI</item>
+        <item>LOTEAMENTO NOVO JARDIM REDENCÃO I</item>
+        <item>LOTEAMENTO NOVO JARDIM REDENCÃO II</item>
+        <item>LOTEAMENTO NOVA ZELANDIA OLHO D</item>
+        <item>LOTEAMENTO PARQUE INDUSTRIAL OLHO D</item>
+        <item>LOTEAMENTO CAMPO BELO OLHO D</item>
+        <item>LOTEAMENTO BOA VISTA I JARDINS</item>
+        <item>LOTEAMENTO BOA VISTA II JARDINS</item>
+        <item>LOTEAMENTO BOA VISTA III JARDINS</item>
+        <item>LOTEAMENTO JARDIM JARDINS</item>
+        <item>LOTEAMENTO JARDIM BRASIL JARDINS</item>
+        <item>LOTEAMENTO JARDIM FRANCESA GUAJI</item>
+        <item>LOTEAMENTO SÃO PEDRO AMARANTE</item>
+        <item>LOTEAMENTO SÃO PEDRO SANTO ANT POTENGI</item>
+        <item>LOTEAMENTO MANOEL BEZERRA AMARANTE</item>
+        <item>LOTEAMENTO VILA PARAISO OLHO D</item>
+        <item>LOTEAMENTO JOÃO ANGELO DA FONSECA</item>
+        <item>LOTEAMENTO MONTE LIBANO AMARANTE</item>
+        <item>LOTEAMENTO MONTE LIBANO II NOVO AMARA</item>
+        <item>CONJUNTO REGOMOLEIRO III</item>
+        <item>LOTEAMENTO PADRE JOÃO MARIA</item>
+        <item>LOTEAMENTO SÃO FRANCISCO III GOLANDIM</item>
+        <item>LOTEAMENTO NOVO SÃO GONCALO</item>
+        <item>LOTEAMENTO ALTO DE SÃO GONCALO</item>
+        <item>LOTEAMENTO ALTO DAS COLINAS</item>
+        <item>LOTEAMENTO SANTA TEREZINHA I</item>
+        <item>LOTEAMENTO SANTA TEREZINHA II</item>
+        <item>LOTEAMENTO SANTA TEREZINHA III</item>
+        <item>LOTEAMENTO NOVA ALVORADA</item>
+        <item>LOTEAMENTO RECANTO</item>
+        <item>LOTEAMENTO REGOMOLEIRO I</item>
+        <item>LOTEAMENTO REGOMOLEIRO II</item>
+        <item>NOVA ZELANDIA II OLHO D</item>
+        <item>LOTEAMENTO GANCHO AMARANTE</item>
+        <item>LOTEAMENTO PLANALTO</item>
+        <item>LOTEAMENTO TEREZA G DA SILVA AMARANTE</item>
+        <item>LOTEAMENTO NOVO MILENIO TRIGUEIROS</item>
+        <item>LOTEAMENTO HORIZONTE REGOMOLEIRO</item>
+        <item>LOTEAMENTO SÃO CARLOS</item>
+        <item>LOTEAMENTO PARQUE DAS ROSAS</item>
+        <item>LOTEAMENTO ENCANTO</item>
+        <item>BARREIROS</item>
+        <item>OLHO DAGUA DO CARRILHO</item>
+        <item>MORADA ESPACO ABERTO</item>
+        <item>LOTEAMENTO JARDIM BELO HORIZONTE</item>
+        <item>MACARANDUBA</item>
+        <item>DT INDUSTRIAL</item>
+        <item>PASSAGEM DA VILA</item>
+        <item>AMARANTE</item>
+        <item>CONJUNTO JARDIM PETROPOLIS</item>
+        <item>CONJUNTO IPE AMARANTE</item>
+        <item>LAGOA AZUL</item>
+        <item>GUANDUBA</item>
+        <item>LOTEAMENTO NOVA MARBELLA REGOMOLEIRO</item>
+        <item>ZONA RURAL</item>
+        <item>ZONA DE EXPANSÃO URBANA</item>
+        <item>OITEIROS</item>
+        <item>GUAJIRU</item>
+        <item>URUACU</item>
+        <item>COQUEIROS</item>
+        <item>IGREJA NOVA</item>
+        <item>SERRINHA</item>
+        <item>CARNAUBINHA</item>
+        <item>BELA VISTA</item>
+        <item>CHA DO MORENO</item>
+        <item>LADEIRA GRANDE</item>
+        <item>JACOBINA</item>
+        <item>POCO DE PEDRA</item>
+        <item>JACARE MIRIM</item>
+        <item>PAJUCARA</item>
+        <item>CAMPOS VERDES BOULEVARD</item>
+        <item>OLHO DAGUA DO CHAPEU</item>
+        <item>LOTEAMENTO CIDADE DAS FLORES</item>
+        <item>BARRO DURO</item>
+        <item>LOTEAMENTO PLAZA GARDENS</item>
+        <item>OLHO DAGUA DE BAIXO</item>
+        <item>CIDADE DO SOL</item>
+        <item>TRIGUEIROS</item>
+        <item>LOTEAMENTO CIDADE DAS ROSAS</item>
+        <item>IGAPO</item>
+        <item>FELIPE CAMARÃO</item>
+        <item>PAU FERRO</item>
+        <item>UTINGA</item>
+        <item>DESM BOSQUE DOS COQUEIROS</item>
+        <item>JARDIM PETROPOLIS</item>
+        <item>JARDINS</item>
+        <item>JACAREPAGUA</item>
+        <item>CALIFORNIA</item>
+        <item>CATAMBOEIRA</item>
+        <item>JARDIM ARVOREDO</item>
+        <item>OLHO DAGUA</item>
+        <item>RIACHO DO MEIO</item>
+        <item>NOVO SÃO GONCALO</item>
+        <item>JENIPAPU</item>
+        <item>SANTA TEREZINHA</item>
+        <item>RIO DA PRATA</item>
+        <item>OUTROS</item>
+        <item>SANTOS DUMONT</item>
+        <item>DESM LISBOA SANTO ANTONIO;</item>
+
+    </string-array>
+    <string-array name="unidades_federativas_array">
+        <item>AC</item>
+        <item>AL</item>
+        <item>AM</item>
+        <item>AP</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF </item>
+        <item>ES </item>
+        <item>FN </item>
+        <item>GO </item>
+        <item>MA </item>
+        <item>MG </item>
+        <item>MS </item>
+        <item>MT </item>
+        <item>PA </item>
+        <item>PB </item>
+        <item>PE </item>
+        <item>PI </item>
+        <item>PR </item>
+        <item>RJ </item>
+        <item>RN </item>
+        <item>RO </item>
+        <item>RR </item>
+        <item>RS </item>
+        <item>SC </item>
+        <item>SE </item>
+        <item>SP </item>
+        <item>TO</item>
+
+    </string-array>
+    <string-array name="edificios_array">
+        <item>CONJUNTO REGOMOLEIRO III </item>
+        <item>CONJUNTO JARD PETROPOLIS </item>
+        <item>CONDOMINIO BRISA POTENGI I </item>
+        <item>CONDOMINIO BRISA POTENGI II </item>
+        <item>CONDOMINIO PORTO DO POTENGI </item>
+        <item>CONDOMINIO CORAIS DO POTENGI I </item>
+        <item>CONDOMINIO GAMBOA POTENGI I </item>
+        <item>CONDOMINIO GAMBOA POTENGI II </item>
+        <item>CONDOMINIO GAMBOA POTENGI III </item>
+        <item>CONDOMINIO GAMBOA POTENGI IV </item>
+        <item>CONDOMINIO CORAIS DO POTENGI II </item>
+        <item>CONDOMINIO CORAIS DO POTENGI III </item>
+        <item>CONDOMINIO CORAIS DO POTENGI IV </item>
+        <item>CONDOMINIO CORAIS DO POTENGI V </item>
+        <item>CONJUNTO AIRTON SENNA </item>
+        <item>CONDOMINIO VILA PARAISO </item>
+        <item>CONDOMINIO BELEM </item>
+        <item>ARTE OPERA I </item>
+        <item>ARTE OPERA II </item>
+        <item>RESIDENCIAL AMAZONAS </item>
+        <item>RESIDENCIAL VILA FLOR </item>
+        <item>PARQUE DOS GIRASSOIS </item>
+        <item>MANARI </item>
+        <item>CONDOMINIO RECANTO DAS ARVORESIDENCIAL I </item>
+        <item>CONDOMINIO MIRANTES DA LAGOA 1 </item>
+        <item>RESIDENCIAL GERBERA </item>
+        <item>JARDIM DOS LIRIOS </item>
+        <item>JARDIM DAS HORTENCIAS </item>
+        <item>CONDOMINIO PORTO DO POTENGI II </item>
+        <item>CONDOMINIO PORTO DO POTENGI III </item>
+        <item>CONDOMINIO PORTO DO POTENGI IV </item>
+        <item>CONDOMINIO PORTO DO POTENGI V </item>
+        <item>CONDOMINIO PORTO DO POTENGI VI </item>
+        <item>RESIDENCIAL INTERCITIES </item>
+        <item>CONDOMINIO CORAIS DO POTENGI VI </item>
+        <item>CONDOMINIO CORAIS DO POTENGI VII </item>
+        <item>CONDOMINIO CORAIS DO POTENGI VIII </item>
+        <item>CONDOMINIO CORAIS DO POTENGI 10 </item>
+        <item>CONDOMINIO CORAIS DO POTENGI 11 </item>
+        <item>CONDOMINIO RESIDENCIAL VILLAGE </item>
+        <item>CONDOMINIO LUANA AVILA </item>
+        <item>ESCOLA LEA FELIPE </item>
+        <item>CONDOMINIO RESIDENCIAL SÃO GONCALO </item>
+        <item>SHOCK SHOW </item>
+        <item>CONDOMINIO ALHAMBRA I </item>
+        <item>CONDOMINIO RESIDENCIAL PORTO UNICO </item>
+        <item>CONDOMINIO RESIDENCIAL CIDADE DO CABO </item>
+        <item>RESIDENCIAL CANTO DOS PASSAROS </item>
+        <item>RESIDENCIAL JEQUITIBA </item>
+        <item>RAIZEN COMBUSTIVEIS S A</item>
+        <item>CONDOMINIO SÃO GONCALO AMARANTE 01 </item>
+        <item>RESIDENCIAL IPE AMARELO </item>
+        <item>CONDOMINIO SÃO GONCALO AMARANTE 02 </item>
+        <item>RESIDENCIAL JACARANDA </item>
+        <item>CONDOMINIO SÃO GONCALO AMARANTE 03 </item>
+        <item>CONDOMINIO SÃO GONCALO AMARANTE 04 </item>
+        <item>RESIDENCIAL PIRANGI </item>
+        <item>CONDOMINIO SÃO GONCALO AMARANTE 05 </item>
+        <item>RESIDENCIAL TIBAU DO SUL </item>
+        <item>CONDOMINIO SÃO GONCALO AMARANTE 06 </item>
+        <item>CONJUNTO IPE GANCHO </item>
+        <item>RESIDENCIAL ARAUCARIA </item>
+        <item>RESIDENCIAL FLAMBOYANT </item>
+        <item>AREA REM CID DOS PINTORESIDENCIAL I A </item>
+        <item>AREA REM CID DOS PINTORESIDENCIAL I B </item>
+        <item>AREA REM CID DOS PINTORESIDENCIAL I C </item>
+        <item>AREA REM CID DOS PINTORESIDENCIAL III </item>
+        <item>QUINTA DO GUAJIRU I </item>
+        <item>QUINTA DO GUARIJU II </item>
+        <item>QUINTA DO GUARIJU III </item>
+        <item>QUINTA DO GUARIJU IV </item>
+        <item>QUINTA DO GUARIJU V </item>
+        <item>QUINTA DO GUARIJU VI </item>
+        <item>QUINTA DO GUARIJU VII </item>
+        <item>QUINTA DO GUARIJU VIII </item>
+        <item>IPES I </item>
+        <item>IPES II </item>
+        <item>IPES III </item>
+        <item>IPES IV </item>
+        <item>IPES V </item>
+        <item>IPES VI </item>
+        <item>IPES VII </item>
+        <item>IPES VIII </item>
+        <item>IPES IX </item>
+        <item>PROSPERAR RESIDENCE I </item>
+        <item>PROSPERAR RESIDENCE II </item>
+        <item>PROSPERAR RESIDENCE III </item>
+        <item>PROSPERAR RESIDENCE IV </item>
+        <item>PROSPERAR RESIDENCE V </item>
+        <item>RESIDENCIAL LUXEMBURGO </item>
+        <item>RESIDENCIAL LARANJEIRAS </item>
+        <item>RESIDENCIAL GARDENIA </item>
+        <item>BOSQUE RESIDENCIAL </item>
+        <item>CONFORT COLISEUM </item>
+        <item>RESIDENCIAL OLHO DAGUA I </item>
+        <item>PORTO ESPERANCA </item>
+        <item>RESIDENCIAL DAS ALAMANDAS </item>
+        <item>RESIDENCIAL PORTO UNICO </item>
+        <item>RESIDENCIAL BARCELONA </item>
+        <item>CONDOMINIO ESPERANCA I </item>
+        <item>CONDOMINIO ACACIAS </item>
+        <item>CONDOMINIO PORTAL DAS FLORES </item>
+        <item>RESIDENCIAL SÃO GONCALO </item>
+        <item>CONDOMINIO PARQUE DAS FLORES </item>
+        <item>CONDOMINIO ALAMO </item>
+        <item>CONDOMINIO BOSQUE DOS BURITIS </item>
+        <item>RESIDENCIAL BARRA DE CUNHAU </item>
+        <item>MIRANTES DA LAGOA II </item>
+        <item>RESIDENCIAL ALTO DOS LIRIOS II </item>
+        <item>RESIDENCIAL ALTO DOS LIRIOS V </item>
+        <item>RESIDENCIAL ALTO DOS LIRIOS III </item>
+        <item>RESIDENCIAL DAS ORQUIDEAS </item>
+        <item>RESIDENCIAL ALTO DOS LIRIOS IV </item>
+        <item>RESIDENCIAL MURIU </item>
+        <item>RESIDENCIAL GALINHOS </item>
+        <item>RESIDENCIAL PRAIA DE JACUMA </item>
+        <item>RESIDENCIAL DAS BROMELIAS I </item>
+        <item>RESIDENCIAL DAS BROMELIAS II </item>
+        <item>RESIDENCIAL DAS BROMELIAS III </item>
+        <item>CONDOMINIO RESIDENCIAL CASA NOVA GREEN </item>
+        <item>RESIDENCIAL RECANTO DAS BROMELIAS III </item>
+
+    </string-array>
+    <string-array name="estados_conservacao_array">
+        <item>ÓTIMO</item>
+        <item>BOM</item>
+        <item>REGULAR</item>
+        <item>RUIM</item>
+    </string-array>
+    <string-array name="limitacoes_array">
+        <item>MURADO</item>
+        <item>PARCIALMENTE MURADO</item>
+        <item>NÃO MURADO</item>
+    </string-array>
+    <string-array name="loteamentos_array">
+        <item>CENTRO</item>
+        <item>SANTO ANTÔNIO DO POTENGI</item>
+        <item>REGOMOLEIRO</item>
+        <item>NOVO AMARANTE</item>
+        <item>JARDIM LOLA</item>
+        <item>CONJUNTO AMARANTE</item>
+        <item>GOLANDIM</item>
+        <item>DESM RAVENNA II</item>
+        <item>NEBRASKA</item>
+        <item>SANTA LUZIA</item>
+        <item>PARQUE DAS CERAMICAS</item>
+        <item>ALMEIDÃO</item>
+        <item>SAMBURA</item>
+        <item>SAMBURA II</item>
+        <item>CANAA</item>
+        <item>PARQUE DOS SONHOS</item>
+        <item>CONJ MONTE LIBANO</item>
+        <item>SOL NASCENTE</item>
+        <item>SÃO FRANCISCO II</item>
+        <item>PARQUE DOS EUCALIPTOS</item>
+        <item>CONJUNTO RES PARQUE DOS COQUEIROS</item>
+        <item>JARDIM LEBLOM</item>
+        <item>GIZELDA CAMARA</item>
+        <item>BELA VISTA</item>
+        <item>PATAMAR I</item>
+        <item>PATAMAR II</item>
+        <item>VEGA</item>
+        <item>CONJUNTO PROLAR</item>
+        <item>ALAMEDA POTIGUAR</item>
+        <item>CONJUNTO ALAMEDA </item>
+        <item>SÃO DOMINGOS</item>
+        <item>SÃO FRANCISCO I</item>
+        <item>CAPINHACU</item>
+        <item>CONJUNTO RES MORADA ESPAÇO ABERTO</item>
+        <item>LISBOA</item>
+        <item>PARQUE IGARACU</item>
+        <item>SANTO ANTONIO</item>
+        <item>ESPLANADA</item>
+        <item>REGOMOLEIRO LOT</item>
+        <item>ESPLANADA II</item>
+        <item>PARQUE MONTE LIBANO LOT</item>
+        <item>VILA SÃO JORGE</item>
+        <item>BELO HORIZONTE</item>
+        <item>JARDIM REDENÇÃO</item>
+        <item>NOVO JARDIM REDENÇÃO I</item>
+        <item>NOVO JARDIM REDENÇÃO II</item>
+        <item>NOVA ZELANDIA</item>
+        <item>PARQUE INDUSTRIAL</item>
+        <item>CAMPO BELO</item>
+        <item>BOA VISTA I</item>
+        <item>BOA VISTA II</item>
+        <item>BOA VISTA III</item>
+        <item>JARDIM </item>
+        <item>JARDIM BRASIL</item>
+        <item>JARDIM FRANCESA</item>
+        <item>SÃO PEDRO NOVO AMARANTE</item>
+        <item>SÃO PEDROSTO ANT</item>
+        <item>MANOEL BEZERRA NOVO AMARAN</item>
+        <item>VILA PARAISO</item>
+        <item>JOÃO ANGELO DA FONSECA</item>
+        <item>PARQUE MONTE LIBANO</item>
+        <item>MONTE LIBANO II</item>
+        <item>CONJUNTO REGO MOLEIRO III</item>
+        <item>PADRE JOÃO MARIA BARREIROS</item>
+        <item>SÃO FRANCISCO III</item>
+        <item>NOVO SÃO GONCALO</item>
+        <item>ALTO DE SÃO GONCALO</item>
+        <item>ALTO DAS COLINAS</item>
+        <item>SANTA TEREZINHA I</item>
+        <item>SANTA TEREZINHA II</item>
+        <item>SANTA TEREZINHA III</item>
+        <item>NOVA ALVORADA</item>
+        <item>RECANTO</item>
+        <item>REGO MOLEIRO I</item>
+        <item>REGO MOLEIRO II</item>
+        <item>NOVA ZELANDIA II</item>
+        <item>GANCHO</item>
+        <item>PLANALTO</item>
+        <item>TEREZA G DA SILVA</item>
+        <item>NOVO MILENIO</item>
+        <item>HORIZONTE</item>
+        <item>SÃO CARLOS</item>
+        <item>PARQUE DAS ROSAS</item>
+        <item>ENCANTO</item>
+        <item>BARREIROS</item>
+        <item>OLHO D´AGUA DO CARRILHO</item>
+        <item>MORADA ESPACO ABERTO</item>
+        <item>JARDIM BELO HORIZONTE</item>
+        <item>MASSARANDUBA ZONA EXP URBANA</item>
+        <item>DT INDUSTRIAL</item>
+        <item>PASSAGEM DA VILA</item>
+        <item>AMARANTE</item>
+        <item>JARDIM PETROPOLIS SETOR A</item>
+        <item>CONJUNTO IPE AMARANTE</item>
+        <item>LAGOA AZUL LOT</item>
+        <item>GUANDUBA</item>
+        <item>NOVA MARBELLA</item>
+        <item>SÃO JOSÉ</item>
+        <item>SERRINHA</item>
+        <item>CAMPOS VERDES BOULEVARD</item>
+        <item>CIDADE DAS FLORES</item>
+        <item>PLAZA GARDENS</item>
+        <item>CIDADE DAS ROSAS</item>
+        <item>DESM PORTO BELLO</item>
+        <item>DESM CAMPOS VERDES FASE I</item>
+        <item>DESM CAMPOS VERDES FASE II</item>
+        <item>SOLAR DOS IPES</item>
+        <item>DESM RAVENNA I</item>
+        <item>JUNCARA</item>
+        <item>GUAJIRU</item>
+        <item>DESM ARUANA</item>
+        <item>DESM RAVENNA III</item>
+        <item>DESM MONTEZANO GLEBA 17</item>
+        <item>DESM RENATO BANDEIRA</item>
+        <item>DESM MIRANTE DO SOL I</item>
+        <item>DESM MIRANTE DO SOL II</item>
+        <item>DESM MIRANTE DO SOL III</item>
+        <item>DESM MIRANTE DO SOL IV</item>
+        <item>DESM BOSQUE DOS COQUEIROS</item>
+        <item>COQUEIROS</item>
+        <item>PAU FERRO</item>
+        <item>MILHARADA</item>
+        <item>BRASIL RESID JOMAR ALECRIM</item>
+        <item>LAGOA AZUL</item>
+        <item>BRASIL RESID LUIZA QUEIROZ</item>
+        <item>GREEN PARK</item>
+        <item>BURITI</item>
+        <item>PARK BOULEVARD</item>
+        <item>JARDIM PETROPOLIS SETOR B</item>
+        <item>CHACARA BEIJA FLOR</item>
+        <item>SANTA LÚCIA</item>
+        <item>BOSQUE DAS LEUCENAS</item>
+        <item>PARQUE AMARANTE</item>
+        <item>FLORIDA PARK</item>
+        <item>CISPLATINA</item>
+        <item>JARDIM PETROPOLIS SETOR C</item>
+        <item>CIDADE DAS FLORES II</item>
+        <item>DESM JOANA MARQUES</item>
+        <item>RECANTO DAS PALMEIRAS</item>
+        <item>CIDADE DAS ROSAS II</item>
+    </string-array>
+    <string-array name="padroes_qualidade_array">
+        <item>ESPECIAL</item>
+        <item>ÓTIMO</item>
+        <item>BOM</item>
+        <item>REGULAR</item>
+    </string-array>
+    <string-array name="patrimonios_array">
+        <item>PARTICULAR</item>
+        <item>PÚBLICO</item>
+        <item>RELIGIOSO</item>
+        <item>OUTROS</item>
+    </string-array>
+    <string-array name="pedologias_array">
+        <item>NORMAL</item>
+        <item>ALAGADO TOTAL</item>
+        <item>ALAGADO 50 +</item>
+        <item>ALAGADO 50 -</item>
+    </string-array>
+    <string-array name="situacoes_terreno_array">
+        <item>MEIO DE QUADRA</item>
+        <item>ENCRAVADO</item>
+        <item>ESQUINA</item>
+        <item>MAIS DE UMA FRENTE</item>
+        <item>FUNDO INTERNO</item>
+    </string-array>
+    <string-array name="tipos_estruturas_array">
+        <item>CONCRETO</item>
+        <item>MISTA</item>
+        <item>METÁLICA</item>
+        <item>ALVENARIA</item>
+        <item>MADEIRA</item>
+        <item>TAIPA</item>
+        <item>OUTROS</item>
+    </string-array>
+    <string-array name="tipos_imoveis_array">
+        <item>APARTAMENTO</item>
+        <item>EDIFICIO COMERCIAL</item>
+        <item>CASA ISOLADA</item>
+        <item>CASA GERMINADA 1L</item>
+        <item>CASA GERMINADA 2L</item>
+        <item>LOJA GALERIA SHOPPING</item>
+        <item>CLUBE CINEMA</item>
+        <item>GINASIO</item>
+        <item>EDIFICACÃO ESPECIAL</item>
+        <item>EDUCACÃO</item>
+        <item>TEMPLO</item>
+        <item>GARAGEM DEPOSITO</item>
+        <item>HOTEL POUSADA MOTEL</item>
+        <item>GALPÃO</item>
+        <item>INDÚSTRIA FABRICA</item>
+        <item>HOSPITAL CLÍNICA</item>
+        <item>SUBSTACÃO</item>
+        <item>POSTO DE COMBUSTÍVEL</item>
+        <item>INSTITUICÃO FINANCEIRA</item>
+        <item>TELHEIRO EDIFICACÃO PRECARIA</item>
+        <item>CONTRUCÃO PRECARIA</item>
+        <item>TERRENO</item>
+    </string-array>
+    <string-array name="tipos_logradouros_array">
+        <item>ALAMEDA</item>
+        <item>ALTO</item>
+        <item>AVENIDA</item>
+        <item>BECO</item>
+        <item>CAIS</item>
+        <item>CHACARA</item>
+        <item>COLONIA</item>
+        <item>CONDOMINIO</item>
+        <item>CONJUNTO</item>
+        <item>ESCADARIA</item>
+        <item>ESTACÃO</item>
+        <item>ESTRADA</item>
+        <item>FAVELA</item>
+        <item>FAZENDA</item>
+        <item>FORTE</item>
+        <item>GALERIA</item>
+        <item>GRANJA</item>
+        <item>JARDIM</item>
+        <item>LADEIRA</item>
+        <item>LARGO</item>
+        <item>LINHA</item>
+        <item>MESTRE</item>
+        <item>PARQUE</item>
+        <item>PASSAGEM</item>
+        <item>PATIO</item>
+        <item>PONTE</item>
+        <item>PORTO</item>
+        <item>PRACA</item>
+        <item>PRAIA</item>
+        <item>PRIMEIRA TRAVESSA</item>
+        <item>RODOVIA</item>
+        <item>RODOVIARIA</item>
+        <item>RUA</item>
+        <item>SEGUNDA TRAVESSA</item>
+        <item>SERVIDÃO</item>
+        <item>SITIO</item>
+        <item>TRAVESSA</item>
+        <item>VEREADORA</item>
+        <item>VIADUTO</item>
+        <item>VILA</item>
+    </string-array>
+    <string-array name="tipos_natureza_array">
+        <item>PREDIAL</item>
+        <item>TERRITORIAL</item>
+    </string-array>
+    <string-array name="tipos_subunidades_array">
+        <item>ANDAR</item>
+        <item>ANEXO</item>
+        <item>APARTAMENTO</item>
+        <item>BOX</item>
+        <item>CASA</item>
+        <item>CHALE</item>
+        <item>CINEMA</item>
+        <item>CLINICA</item>
+        <item>CLUBE</item>
+        <item>COMERCIAL</item>
+        <item>COMPARTIMENTO</item>
+        <item>CONJUNTO</item>
+        <item>DEPOSITO</item>
+        <item>DUPLEX</item>
+        <item>ED ESPECIAL</item>
+        <item>ESCOLA</item>
+        <item>FINANCEIRA</item>
+        <item>GALPÃO</item>
+        <item>GARAGEM</item>
+        <item>GLEBA</item>
+        <item>HOSPITAL</item>
+        <item>HOTEL</item>
+        <item>INDUSTRIA</item>
+        <item>JUNTO</item>
+        <item>LOJA</item>
+        <item>LOTE</item>
+        <item>ONDE EXISTIU</item>
+        <item>P POSTERIOR</item>
+        <item>PAVIMENTO</item>
+        <item>PRACA</item>
+        <item>QUADRA</item>
+        <item>SALA</item>
+        <item>SOBRADO</item>
+        <item>SOBRELOJA</item>
+        <item>SUBSOLO</item>
+        <item>TEATRO</item>
+        <item>TELHEIRO</item>
+        <item>TERREO</item>
+        <item>UI</item>
+        <item>UNID C</item>
+        <item>VILA</item>
+    </string-array>
+    <string-array name="tipos_usuario_array">
+        <item>FISCAL</item>
+        <item>SUPERVISOR</item>
+        <item>ADMINISTRADOR</item>
+    </string-array>
+    <string-array name="tipos_topografias_array">
+        <item>PLANO</item>
+        <item>ACLIVE DECLIVE</item>
+        <item>REDUÇÃO DE CAPACIDADE</item>
+        <item>FORMATO QUE IMPEDE CONSTRUÇÃO</item>
+    </string-array>
+    <string-array name="ultilizacoes_imovel_array">
+        <item>RESIDENCIAL</item>
+        <item>INDUSTRIAL</item>
+        <item>MISTA</item>
+        <item>COMERCIAL</item>
+        <item>HOSPITAL</item>
+        <item>ENTRADA PÚBLICA</item>
+        <item>PRESTAÇÃO DE SERVIÇO</item>
+        <item>EDUCAÇÃO</item>
+    </string-array>
+</resources>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/layout_padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.activities.FormImovelActivity">
+
+        <LinearLayout
+            android:id="@+id/ac_form_imovel_llayout_bairro_logradouro_complemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ac_form_imovel_tv_title"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ac_form_imovel_llayout_inscricao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/ac_form_imovel_tv_inscricao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/ac_form_imovel_inscricao"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ac_form_imovel_tv_inscricao_valor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ac_form_imovel_llayout_inscricao_anterior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/ac_form_imovel_tv_inscricao_anterior"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/ac_form_imovel_inscricao_anterior"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ac_form_imovel_tv_inscricao_anterior_valor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ac_form_imovel_llayout_sequencial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/ac_form_imovel_tv_sequencial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/ac_form_imovel_sequencial"
+                    android:textSize="20sp" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/ac_form_imovel_tv_sequencial_valor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/ac_form_imovel_tv_endereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/logradouro"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:id="@+id/ac_form_imovel_layout_tv_cidade_uf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_form_imovel_tv_endereco_bairro"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:hint="@string/endereco_bairro"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ac_form_imovel_layout_cidade_uf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_form_imovel_sp_endereco_bairro"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/background_spinner"
+                    android:hint="@string/endereco_bairro" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_form_imovel_ed_endereco_logradouro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="@string/endereco_logradouro"
+                    android:inputType="textImeMultiLine" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_form_imovel_ed_endereco_lote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="@string/endereco_lote"
+                    android:inputType="textImeMultiLine" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_form_imovel_ed_endereco_complemento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="@string/endereco_complemento"
+                    android:inputType="textImeMultiLine" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_form_imovel_ed_endereco_quadra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="@string/endereco_quadra"
+                    android:inputType="textImeMultiLine" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ac_form_imovel_layout_cep_numero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_form_imovel_ed_endereco_cep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="@string/endereco_cep"
+                    android:inputType="numberSigned" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_form_imovel_ed_endereco_numero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="@string/endereco_numero"
+                    android:inputType="numberSigned" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ac_form_imovel_layout_loteamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_form_imovel_tv_endereco_loteamento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:hint="@string/endereco_loteamento"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ac_form_imovel_lv_endereco_subunidade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:hint="@string/endereco_subunidade"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_form_imovel_sp_endereco_loteamento"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_spinner" />
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_form_imovel_sp_endereco_subunidade"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_spinner" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ac_form_imovel_layout_tv_edificio_natureza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_form_imovel_tv_endereco_edificio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:hint="@string/endereco_edificio"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ac_form_imovel_layout_edificio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_form_imovel_sp_endereco_edificio"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_spinner"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ac_form_imovel_layout_natureza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_form_imovel_tv_endereco_natureza"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:hint="@string/endereco_natureza"
+                    android:textSize="20sp" />
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_form_imovel_sp_endereco_natureza"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_spinner" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_form_imovel_ed_endereco_numero_subunidade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="@string/endereco_numero_subunidade"
+                    android:inputType="numberSigned" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_form_imovel_ed_endereco_bloco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="@string/endereco_bloco"
+                    android:inputType="textImeMultiLine" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ac_form_imovel_layout_localizacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_form_imovel_bt_localizacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/endereco_localizacao"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_form_imovel_ed_endereco_latitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:enabled="false"
+                    android:hint="@string/endereco_latitude" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_form_imovel_ed_endereco_longitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:enabled="false"
+                    android:hint="@string/endereco_longitude" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- Endereço Imóvel -->
+
+        <TextView
+            android:id="@+id/ac_form_imovel_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/imovelId"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>

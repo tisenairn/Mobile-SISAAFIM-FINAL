@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="@dimen/layout_padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.activities.InfoImovelActivity">
+
+        <LinearLayout
+            android:id="@+id/ac_info_imovel_ll_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/ac_info_imovel_tv_dimensoes_unidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ac_info_imovel_tv_dimensoes_unidade"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_info_imovel_area_do_terreno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:inputType="numberSigned"
+                    android:hint="@string/ac_info_imovel_area_do_terreno" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_info_imovel_testada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:inputType="numberSigned"
+                    android:hint="@string/ac_info_imovel_testada" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_info_imovel_area_total"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:inputType="numberSigned"
+                    android:hint="@string/ac_info_imovel_area_total" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_info_imovel_profundidade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:inputType="numberSigned"
+                    android:hint="@string/ac_info_imovel_profundidade" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ac_info_imovel_area_da_unidade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
+                    android:inputType="numberSigned"
+                    android:hint="@string/ac_info_imovel_area_da_unidade" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ac_info_imovel_tv_info_gerais_terreno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/ac_info_imovel_tv_info_gerais_terreno"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Topologia e Pedologia -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_info_imovel_tv_topografia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/ac_info_imovel_topografia" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_info_imovel_sp_topografia"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/background_spinner"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+            <!-- Patrimônio e Limitação -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_info_imovel_tv_patrimonio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/ac_info_imovel_patrimonio" />
+
+                <TextView
+                    android:id="@+id/ac_info_imovel_tv_limitacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/ac_info_imovel_limitacao" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_info_imovel_sp_patrimonio"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/background_spinner"
+                    android:layout_weight="1" />
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_info_imovel_sp_limitacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/background_spinner"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <!-- Utilização do Imóvel e Padrão de Qualidade -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_info_imovel_tv_utilizacao_imovel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/ac_info_imovel_utilizacao_imovel" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_info_imovel_sp_utilizacao_imovel"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/background_spinner"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_info_imovel_tv_padrao_qualidade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/ac_info_imovel_padrao_qualidade" />
+
+                <TextView
+                    android:id="@+id/ac_info_imovel_tv_pedologia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/ac_info_imovel_pedologia" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_info_imovel_sp_padrao_qualidade"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/background_spinner"
+                    android:layout_weight="1" />
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_info_imovel_sp_pedologia"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/background_spinner"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <!-- Tipo de Imóvel e Tipo de Estrutura -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_info_imovel_tv_tipo_imovel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/ac_info_imovel_tipo_imovel" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_info_imovel_sp_tipo_imovel"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/background_spinner"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_info_imovel_tv_tipo_estrutura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/ac_info_imovel_tipo_estrutura" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_info_imovel_sp_tipo_estrutura"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/background_spinner"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+            <!-- Situação do Terreno e Fração Ideal -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac_info_imovel_tv_situacao_terreno"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/ac_info_imovel_situacao_terreno" />
+                <TextView
+                    android:id="@+id/ac_info_imovel_tv_estado_conservacao"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/ac_info_imovel_estado_conservacao" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_info_imovel_sp_situacao_terreno"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/background_spinner"/>
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/ac_info_imovel_sp_estado_conservacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/background_spinner" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ac_info_imovel_et_fracao_ideal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_edt_text"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorAccent"
+                android:inputType="textImeMultiLine"
+                android:hint="@string/ac_info_imovel_fracao_ideal" />
+
+            <!-- Benfeitorias -->
+
+            <TextView
+                android:id="@+id/ac_info_imovel_tv_benfeitorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/ac_info_imovel_tv_benfeitorias"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/ac_info_imovel_cb_agua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/info_imovel_agua"
+                        android:textColor="@color/colorPrimary" />
+
+                    <CheckBox
+                        android:id="@+id/ac_info_imovel_cb_sarjetas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/info_imovel_sarjetas"
+                        android:textColor="@color/colorPrimary" />
+
+
+                    <CheckBox
+                        android:id="@+id/ac_info_imovel_cb_esgoto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/info_imovel_esgoto"
+                        android:textColor="@color/colorPrimary" />
+
+                    <CheckBox
+                        android:id="@+id/ac_info_imovel_cb_rede_eletrica"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/info_imovel_rede_eletrica"
+                        android:textColor="@color/colorPrimary" />
+
+                    <CheckBox
+                        android:id="@+id/ac_info_imovel_cb_limpeza_urbana"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/info_imovel_limpeza_urbana"
+                        android:textColor="@color/colorPrimary" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/ac_info_imovel_cb_iluminacao_publica"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/info_imovel_iluminacao_publica"
+                        android:textColor="@color/colorPrimary" />
+
+                    <CheckBox
+                        android:id="@+id/ac_info_imovel_cb_pavimentacao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/info_imovel_pavimentacao"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <CheckBox
+                        android:id="@+id/ac_info_imovel_cb_telefone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/info_imovel_telefone"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <CheckBox
+                        android:id="@+id/ac_info_imovel_cb_galerias_pluviais"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/info_imovel_galerias_pluviais"
+                        android:textColor="@color/colorPrimary" />
+
+                    <CheckBox
+                        android:id="@+id/ac_info_imovel_cb_coleta_lixo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/info_imovel_coleta_lixo"
+                        android:textColor="@color/colorPrimary" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
